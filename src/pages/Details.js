@@ -10,7 +10,7 @@ const Details = () => {
   const details = useSelector((state) => state.DetailsReducer);
   useEffect(() => {
     dispatch(FetchDetailsFunc(coinId));
-  }, []);
+  }, [coinId, dispatch]);
   return (
     <div className="data-cont">
       <h3 className="coins-title">Coin Description</h3>

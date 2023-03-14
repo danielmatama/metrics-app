@@ -11,7 +11,7 @@ const Home = () => {
   const coins = useSelector((state) => state.ListsReducer);
   useEffect(() => {
     dispatch(FetchCoinsFunc());
-  }, []);
+  }, [dispatch]);
 
   const handleDetails = (id) => navigate(`/details/${id}`);
   return (
