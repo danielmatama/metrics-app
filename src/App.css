@@ -11,12 +11,41 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: #d6eaf8;
   padding: 2rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
 }
 
 .data-cont {
   width: 450px;
   background-color: #3498db;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
+  border: 2px solid #d35400;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .data-cont {
+    width: calc(100vw - 40px);
+    margin: 0 auto;
+  }
 }
