@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d6eaf8;
+  padding: 2rem 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.data-cont {
+  width: 450px;
+  background-color: #3498db;
+  padding-bottom: 25px;
+  border: 2px solid #d35400;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .data-cont {
+    width: calc(100vw - 40px);
+    margin: 0 auto;
+  }
+}
