@@ -99,7 +99,7 @@
 
 ## 🚀 Live Demo and Video Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://danielmatama.github.io/metrics-app/)
+- [Live Demo Link](metrics-matama.netlify.app)
 
 - [Video Demo Link](https://www.loom.com/share/9985a180f7ab479fb956106af4a421cc)
 
