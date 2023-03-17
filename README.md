@@ -123,8 +123,8 @@ To get a local copy up and running follow these simple example steps.
 
 ## Usage
 ### Clone this repository
-> $ git clone https://github.com/tashisrael/react-metrics-webapp.git:
-> $ cd react-metrics-webapp
+> $ git clone https://github.com/danielmatama/metrics-app.git:
+> $ cd metrics-app
 
 ## Run project
 ### `$ npm install`
